@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8ip-BB-FHy">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="OWn-i8-M38">
+            <objects>
+                <viewController id="ail-iY-lhd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GP8-1V-NcH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1A7-7G-Law">
+                                <rect key="frame" x="144.66666666666666" y="78" width="103.66666666666666" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2om-CE-wqY">
+                                <rect key="frame" x="16" y="151" width="73" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Font size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfv-Fx-uRY">
+                                <rect key="frame" x="16" y="200" width="92" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tso-h2-yBd">
+                                <rect key="frame" x="14" y="246" width="356" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page width" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lea-oP-sb1">
+                                <rect key="frame" x="16" y="283" width="115" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YzZ-xJ-DyS">
+                                <rect key="frame" x="14" y="329" width="356" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Line height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bd9-3y-rLJ">
+                                <rect key="frame" x="16" y="366" width="115" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="IAH-82-259">
+                                <rect key="frame" x="14" y="412" width="356" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S34-1L-7U5">
+                                <rect key="frame" x="321" y="149" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RIc-eF-z4y"/>
+                        <color key="backgroundColor" red="0.08250007778" green="0.093637354670000006" blue="0.11765060569999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" selectedImage="gear.circle.fill" catalog="system" id="B2A-JO-8a1">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7r4-pM-4dR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1022.1374045801526" y="736.61971830985919"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="wSz-w1-9dV">
+            <objects>
+                <viewController id="Leg-qz-H5t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hw8-OV-bee">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dustloop Home Image" translatesAutoresizingMaskIntoConstraints="NO" id="P2U-Ra-YRr">
+                                <rect key="frame" x="45" y="78" width="303" height="161"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Dustloop Wiki!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2e-i8-Htv">
+                                <rect key="frame" x="28.666666666666657" y="247" width="335.66666666666674" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nl8-1H-8Io">
+                                <rect key="frame" x="28.666666666666657" y="301" width="291" height="20"/>
+                                <string key="text">The community built information hub for 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.69454431530000005" green="0.72795408959999997" blue="0.80393326279999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arc System Works' games." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFL-ls-XUJ">
+                                <rect key="frame" x="28.666666666666671" y="329" width="194" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.69454431530000005" green="0.72795408959999997" blue="0.80393326279999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GGST Icons" translatesAutoresizingMaskIntoConstraints="NO" id="xUs-1M-eAG">
+                                <rect key="frame" x="17" y="395" width="114" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DBFZ Icons" translatesAutoresizingMaskIntoConstraints="NO" id="vfh-a4-v8b">
+                                <rect key="frame" x="139" y="395" width="114" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Xrd Icons" translatesAutoresizingMaskIntoConstraints="NO" id="omK-D1-gCy">
+                                <rect key="frame" x="261" y="395" width="114" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="P4AU Icons" translatesAutoresizingMaskIntoConstraints="NO" id="vQI-Ev-JAz">
+                                <rect key="frame" x="17" y="466" width="114" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plus R Icons" translatesAutoresizingMaskIntoConstraints="NO" id="cA0-BJ-ZiY">
+                                <rect key="frame" x="139" y="466" width="114" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Missing Link Icons" translatesAutoresizingMaskIntoConstraints="NO" id="ezt-aL-3Ma">
+                                <rect key="frame" x="261" y="466" width="114" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zg9-dd-xx4"/>
+                        <color key="backgroundColor" red="0.08250007778" green="0.093637354670000006" blue="0.11765060569999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Nl8-1H-8Io" firstAttribute="leading" secondItem="s2e-i8-Htv" secondAttribute="leading" id="0vd-T1-5zm"/>
+                            <constraint firstItem="s2e-i8-Htv" firstAttribute="top" secondItem="P2U-Ra-YRr" secondAttribute="bottom" constant="8" id="1c8-qr-FXt"/>
+                            <constraint firstItem="rFL-ls-XUJ" firstAttribute="top" secondItem="Nl8-1H-8Io" secondAttribute="bottom" constant="8" id="7AI-rj-vl8"/>
+                            <constraint firstItem="s2e-i8-Htv" firstAttribute="centerX" secondItem="P2U-Ra-YRr" secondAttribute="centerX" id="80h-oz-A0N"/>
+                            <constraint firstItem="P2U-Ra-YRr" firstAttribute="leading" secondItem="zg9-dd-xx4" secondAttribute="leading" constant="45" id="Nv8-1G-z0s"/>
+                            <constraint firstItem="P2U-Ra-YRr" firstAttribute="top" secondItem="zg9-dd-xx4" secondAttribute="top" constant="19" id="QaZ-rJ-y10"/>
+                            <constraint firstItem="zg9-dd-xx4" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nl8-1H-8Io" secondAttribute="trailing" symbolic="YES" id="ZaF-xO-YfJ"/>
+                            <constraint firstItem="s2e-i8-Htv" firstAttribute="top" secondItem="hw8-OV-bee" secondAttribute="top" constant="247" id="c07-Jw-lqU"/>
+                            <constraint firstItem="zg9-dd-xx4" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rFL-ls-XUJ" secondAttribute="trailing" symbolic="YES" id="nbx-mN-sLz"/>
+                            <constraint firstItem="s2e-i8-Htv" firstAttribute="centerX" secondItem="hw8-OV-bee" secondAttribute="centerX" id="rlx-qF-JjE"/>
+                            <constraint firstItem="Nl8-1H-8Io" firstAttribute="top" secondItem="s2e-i8-Htv" secondAttribute="bottom" constant="19" id="wjf-Zh-OWj"/>
+                            <constraint firstItem="rFL-ls-XUJ" firstAttribute="leading" secondItem="zg9-dd-xx4" secondAttribute="leading" constant="28.666666666666671" id="y9v-zh-zKU"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="9pU-G7-cYC">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BCM-mu-T9X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2329.0076335877861" y="736.61971830985919"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="1F5-Sa-PhL">
+            <objects>
+                <tabBarController id="8ip-BB-FHy" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tIv-yb-IeU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="AccentColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Leg-qz-H5t" kind="relationship" relationship="viewControllers" id="HnX-dF-Lvp"/>
+                        <segue destination="ail-iY-lhd" kind="relationship" relationship="viewControllers" id="hwH-Rm-XR4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69b-ib-qR5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1685" y="3"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DBFZ Icons" width="512" height="512"/>
+        <image name="Dustloop Home Image" width="512" height="512"/>
+        <image name="GGST Icons" width="512" height="512"/>
+        <image name="Missing Link Icons" width="512" height="512"/>
+        <image name="P4AU Icons" width="512" height="512"/>
+        <image name="Plus R Icons" width="512" height="512"/>
+        <image name="Xrd Icons" width="512" height="512"/>
+        <image name="gear.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <namedColor name="AccentColor">
+            <color red="0.73619383569999997" green="0.23580491540000001" blue="0.2430990338" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
