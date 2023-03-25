@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2146063129CE893C00B66A50 /* Xrd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2146062B29CE893C00B66A50 /* Xrd.mp3 */; };
+		2146063229CE893C00B66A50 /* missinglink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2146062C29CE893C00B66A50 /* missinglink.mp3 */; };
+		2146063329CE893C00B66A50 /* Strive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2146062D29CE893C00B66A50 /* Strive.mp3 */; };
+		2146063429CE893C00B66A50 /* DBFZ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2146062E29CE893C00B66A50 /* DBFZ.mp3 */; };
+		2146063529CE893C00B66A50 /* P4AU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2146062F29CE893C00B66A50 /* P4AU.mp3 */; };
+		2146063629CE893C00B66A50 /* PlusR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2146063029CE893C00B66A50 /* PlusR.mp3 */; };
 		21C429C6297991340092AEB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C429C5297991330092AEB9 /* AppDelegate.swift */; };
 		21C429C8297991340092AEB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C429C7297991340092AEB9 /* SceneDelegate.swift */; };
 		21C429CA297991340092AEB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C429C9297991340092AEB9 /* ViewController.swift */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2146062B29CE893C00B66A50 /* Xrd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Xrd.mp3; sourceTree = "<group>"; };
+		2146062C29CE893C00B66A50 /* missinglink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = missinglink.mp3; sourceTree = "<group>"; };
+		2146062D29CE893C00B66A50 /* Strive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Strive.mp3; sourceTree = "<group>"; };
+		2146062E29CE893C00B66A50 /* DBFZ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DBFZ.mp3; sourceTree = "<group>"; };
+		2146062F29CE893C00B66A50 /* P4AU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = P4AU.mp3; sourceTree = "<group>"; };
+		2146063029CE893C00B66A50 /* PlusR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PlusR.mp3; sourceTree = "<group>"; };
 		21C429C2297991330092AEB9 /* Dustloop Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dustloop Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C429C5297991330092AEB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C429C7297991340092AEB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2146062A29CE893C00B66A50 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2146062B29CE893C00B66A50 /* Xrd.mp3 */,
+				2146062C29CE893C00B66A50 /* missinglink.mp3 */,
+				2146062D29CE893C00B66A50 /* Strive.mp3 */,
+				2146062E29CE893C00B66A50 /* DBFZ.mp3 */,
+				2146062F29CE893C00B66A50 /* P4AU.mp3 */,
+				2146063029CE893C00B66A50 /* PlusR.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		21C429B9297991330092AEB9 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +124,7 @@
 		21C429C4297991330092AEB9 /* idm362-jam949 */ = {
 			isa = PBXGroup;
 			children = (
+				2146062A29CE893C00B66A50 /* sounds */,
 				21C429C5297991330092AEB9 /* AppDelegate.swift */,
 				21C429C7297991340092AEB9 /* SceneDelegate.swift */,
 				21C429C9297991340092AEB9 /* ViewController.swift */,
@@ -231,9 +257,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2146063529CE893C00B66A50 /* P4AU.mp3 in Resources */,
+				2146063429CE893C00B66A50 /* DBFZ.mp3 in Resources */,
+				2146063229CE893C00B66A50 /* missinglink.mp3 in Resources */,
+				2146063629CE893C00B66A50 /* PlusR.mp3 in Resources */,
 				21C429D2297991350092AEB9 /* LaunchScreen.storyboard in Resources */,
 				21C429CF297991350092AEB9 /* Assets.xcassets in Resources */,
 				21C429CD297991340092AEB9 /* Main.storyboard in Resources */,
+				2146063129CE893C00B66A50 /* Xrd.mp3 in Resources */,
+				2146063329CE893C00B66A50 /* Strive.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
